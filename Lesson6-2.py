@@ -16,3 +16,6 @@ print(m)
 
 print('Программой было использовано памяти: %d байт' % (sys.getsizeof(n) + sys.getsizeof(s) + sys.getsizeof(i)
                                                         + sys.getsizeof(m)))
+
+# При изминении числа ввода использованной памяти становиться больше
+# Операционная система MacOS 64bit
